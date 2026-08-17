@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Case Studies — Franklin Ervin</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-name">Franklin Ervin</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="case-studies.html" class="active">Case Studies</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <section style="padding-top: 56px;">
+    <div class="eyebrow">Case studies</div>
+    <h1 style="font-size: clamp(28px, 4vw, 38px);">Three systems, three different problems</h1>
+    <p style="max-width: 600px; margin-top: 14px;">Each one follows the same shape: a messy manual process, a clear goal, a system I built, and a measurable result.</p>
+  </section>
+
+  <!-- Case Study 1: Content Production -->
+  <section>
+    <div class="card">
+      <div class="eyebrow">Case Study 01</div>
+      <h2>Scaling Content Production</h2>
+
+      <div class="star-row"><div class="star-label">Situation</div><div><p style="margin:0;">At CareAcademy, producing one hour of interactive e-learning content took 360 hours per class as of Q3 2022 &mdash; worse than every published industry benchmark (ATD: 130 hrs, industry average: ~180 hrs, Chapman Alliance: 184 hrs, Radcom: 226 hrs). Worse still, the team had no real operating data: no visibility into estimated vs. actual task time, team capacity, or how much time was going to support work instead of roadmap work.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Task</div><div><p style="margin:0;">Set an explicit, board-visible goal: bring production time down to the ~180-hour industry average.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Action</div><div><p style="margin:0;">Led a three-part initiative: rolled out a full project management framework in ClickUp across every stage of a project &mdash; initiation, planning, execution, and closure &mdash; a rollout that ran January&ndash;July 2023 and kicked off at a company off-site; introduced generative AI tools directly into the content workflow; and redesigned the subject matter expert (SME) review process.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Result</div><div><p style="margin:0;">Cut production time to 133 hours per class by Q3 2023 &mdash; beating not just the internal 180-hour goal, but every industry benchmark cited. The biggest gains came from initial content drafting, SME reviews, and e-learning authoring. It also surfaced valuable side insights: the Compliance team separately beat its own migration goals by 12&ndash;30%, and the new data revealed the Content team was spending 15&ndash;20% of its time on non-roadmap operational work &mdash; insight that now feeds an accurate, data-driven content roadmap.</p></div></div>
+
+      <img class="diagram-img" src="images/content-production-breakdown.png" alt="Content production time breakdown by stage, 2022 vs 2023" />
+
+      <div style="margin-top:16px;">
+        <span class="tag">ClickUp</span><span class="tag">Generative AI</span><span class="tag">Project Management</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study 2: Customer Sentiment Pipeline -->
+  <section>
+    <div class="card">
+      <div class="eyebrow">Case Study 02</div>
+      <h2>Customer Sentiment &amp; Action Analysis Pipeline</h2>
+
+      <div class="star-row"><div class="star-label">Situation</div><div><p style="margin:0;">Customer signals were scattered across three disconnected sources &mdash; support tickets, cancellation forms, and voice-of-customer call notes &mdash; each reviewed manually. Nothing connected them, so churn signals were slow to surface and follow-up was inconsistent.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Task</div><div><p style="margin:0;">Build one repeatable pipeline that takes any customer interaction and automatically turns it into structured, actionable output &mdash; without adding headcount.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Action</div><div><p style="margin:0;">Designed a single pipeline triggered by any customer interaction, forking into three automated paths: Linear tickets get audited and labeled, producing daily Excel/email KPI reports and Slack alerts for anything urgent; cancellation form submissions get classified by reason into structured trend data; and Granola call transcripts get mined for themes and next steps, auto-drafting a customer follow-up email.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Result</div><div><p style="margin:0;">Real-time visibility into churn signals that used to take manual review to catch, automated daily reporting, faster team response through targeted Slack alerts, and structured trend data now feeding product decisions.</p></div></div>
+
+      <img class="diagram-img" src="images/customer-sentiment-pipeline.png" alt="Customer Sentiment and Action Analysis Pipeline diagram" />
+
+      <div>
+        <span class="tag">Claude</span><span class="tag">Zapier</span><span class="tag">Typeform</span><span class="tag">Slack</span><span class="tag">Granola</span><span class="tag">Gmail</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study 3: Deletion/Downgrade Audit -->
+  <section style="padding-bottom: 80px;">
+    <div class="card">
+      <div class="eyebrow">Case Study 03</div>
+      <h2>CS Daily Deletion &amp; Downgrade Audit</h2>
+
+      <div class="star-row"><div class="star-label">Situation</div><div><p style="margin:0;">Deletion and downgrade requests came in as Linear tickets, but knowing which ones were missing key information, which were overdue, and which needed urgent attention required someone manually sifting through tickets every day.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Task</div><div><p style="margin:0;">Automate a recurring audit that classifies every ticket, flags gaps, and proactively notifies the right people &mdash; running like clockwork every Monday morning.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Action</div><div><p style="margin:0;">Built an automated workflow: fetch new/open tickets from Linear filtered by keyword, classify each one for missing information and days overdue or upcoming, auto-apply the correct labels back in Linear, generate a structured Excel report broken into Attention Needed / Pending / Future, email that report to the ticket owner, and send individual Slack DMs to assignees for anything flagged urgent.</p></div></div>
+
+      <div class="star-row"><div class="star-label">Result</div><div><p style="margin:0;">A fully automated, recurring audit that replaced manual ticket-sifting entirely &mdash; consistent labeling, consistent reporting, and proactive notifications instead of tickets quietly aging out.</p></div></div>
+
+      <img class="diagram-img" src="images/deletion-downgrade-workflow.png" alt="CS Daily Deletion and Downgrade Audit workflow diagram" />
+
+      <div>
+        <span class="tag">Linear</span><span class="tag">Zapier</span><span class="tag">Slack</span><span class="tag">Google Sheets</span><span class="tag">Gmail</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+    <span>Franklin Ervin — Operations &amp; AI Implementation Consultant</span>
+    <span>Built with Claude</span>
+  </div>
+</footer>
+
+</body>
+</html>
